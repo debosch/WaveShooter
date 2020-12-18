@@ -2,6 +2,11 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+
+# Jetbrain Rider Cache
+.idea/
+Assets/Plugins/Editor/JetBrains*
+
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -9,6 +14,7 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
+Assets/AssetStoreTools*
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
