@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1297429160154633500}
   - component: {fileID: 4132387049184855842}
   - component: {fileID: 1390811491859203669}
-  - component: {fileID: 4438702638874885357}
+  - component: {fileID: 1901892190259608574}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Player
@@ -143,7 +143,7 @@ CapsuleCollider2D:
   m_Offset: {x: -0.05641967, y: 0.6830639}
   m_Size: {x: 0.6989578, y: 1.3054684}
   m_Direction: 0
---- !u!114 &4438702638874885357
+--- !u!114 &1901892190259608574
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,9 +160,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   groundCheck: {fileID: 178144814389802951}
-  jumpForce: 1000
-  velocitySmoothness: 0.05
-  _boxSize: {x: 1, y: 0.3}
+  jumpForce: 800
+  boxSize: {x: 1, y: 0.3}
 --- !u!1 &7160901172945511121
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Controls
 {
-    public class KnightControls : MonoBehaviour
+    public class Knight : MonoBehaviour
     {
         [SerializeField] private float speed;
         [SerializeField] private LayerMask whatIsGround;
