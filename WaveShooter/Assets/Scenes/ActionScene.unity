@@ -318,7 +318,7 @@ TilemapCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_MaximumTileChangeCount: 1
+  m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
 --- !u!483693784 &1500115484
 TilemapRenderer:
@@ -1078,29 +1078,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4132387049184855842, guid: 0b48254cbf2a04a4fa9489ae0301af92, type: 3}
-      propertyPath: m_LinearDrag
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 4132387049184855842, guid: 0b48254cbf2a04a4fa9489ae0301af92, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4132387049184855842, guid: 0b48254cbf2a04a4fa9489ae0301af92, type: 3}
       propertyPath: m_GravityScale
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 5451206613433215253, guid: 0b48254cbf2a04a4fa9489ae0301af92, type: 3}
-      propertyPath: speed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5451206613433215253, guid: 0b48254cbf2a04a4fa9489ae0301af92, type: 3}
-      propertyPath: jumpForce
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 5451206613433215253, guid: 0b48254cbf2a04a4fa9489ae0301af92, type: 3}
-      propertyPath: _boxSize.y
-      value: 0.31
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8581633322397045002, guid: 0b48254cbf2a04a4fa9489ae0301af92, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b48254cbf2a04a4fa9489ae0301af92, type: 3}
