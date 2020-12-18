@@ -119,14 +119,14 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 0.05
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 10
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 5
+  m_Constraints: 4
 --- !u!70 &1390811491859203669
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -160,8 +160,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   groundCheck: {fileID: 178144814389802951}
-  jumpForce: 800
+  jumpForce: 1000
   boxSize: {x: 1, y: 0.3}
+  animator: {fileID: 1297429160154633500}
 --- !u!1 &7160901172945511121
 GameObject:
   m_ObjectHideFlags: 0
